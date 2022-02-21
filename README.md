@@ -6,9 +6,9 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
 ### Deliverables:
-Deliverable 1: Use Resampling Models to Predict Credit Risk
-Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
-Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+- Deliverable 1: Use Resampling Models to Predict Credit Risk
+- Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+- Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 ## Results:
 The following are the results of each of the techniques for predicitve modeling for loan evaluating.
@@ -33,9 +33,9 @@ Deliverable 1:
   
   ![image](https://user-images.githubusercontent.com/90146132/155026341-2161e942-562b-4d13-9ed4-840cb6517a1e.png)
 
-    Feature Importance:
-    
-    ![image](https://user-images.githubusercontent.com/90146132/155026412-794b9561-c5a2-43b6-85a8-adc0b8d939f5.png)
+   Feature Importance:
+   
+   ![image](https://user-images.githubusercontent.com/90146132/155026412-794b9561-c5a2-43b6-85a8-adc0b8d939f5.png)
     
   - EasyEnsembleClassifier
   
