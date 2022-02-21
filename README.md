@@ -14,28 +14,35 @@ Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 The following are the results of each of the techniques for predicitve modeling for loan evaluating.
 Deliverable 1: 
   - RandomOverSampling
+  
   ![image](https://user-images.githubusercontent.com/90146132/155025897-5f57e62d-b25f-461c-8823-9186a860c71b.png)
   
   - SMOTE Oversampling
+  
   ![image](https://user-images.githubusercontent.com/90146132/155025958-871db68d-fa42-4bed-a2b5-92d980445743.png)
 
   - ClusterCentroids Undersampling
+  
   ![image](https://user-images.githubusercontent.com/90146132/155026066-b58eda15-5eb2-493a-91bd-90c809a9df54.png)
 
   - SMOTEENN
+  
   ![image](https://user-images.githubusercontent.com/90146132/155026124-de8f2944-ec3d-4b7c-85c1-d6250d7154a2.png)
 
   - BalancedRandomForestClassifier
+  
   ![image](https://user-images.githubusercontent.com/90146132/155026341-2161e942-562b-4d13-9ed4-840cb6517a1e.png)
 
     Feature Importance:
+    
     ![image](https://user-images.githubusercontent.com/90146132/155026412-794b9561-c5a2-43b6-85a8-adc0b8d939f5.png)
     
   - EasyEnsembleClassifier
+  
   ![image](https://user-images.githubusercontent.com/90146132/155026502-0addbf0d-b1d3-4b93-9a1c-450693ab2844.png)
 
 ## Summary:
-
+After evaluating each model, it is clear that the most efficient model to use when determining credit risk is the EasyEnsembleClassifier. It had highest balanced accuracy score as well as a higher sensitivity for high and low risk credit making it better to predict a false high risk and finding it is actually not high risk. 
 
 
 
